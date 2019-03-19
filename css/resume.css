@@ -176,7 +176,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+background-color: #003166;
+background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png"); !important;
 }
 
 .text-primary {
