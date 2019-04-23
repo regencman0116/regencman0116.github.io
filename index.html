@@ -2,7 +2,59 @@
 <html lang="en">
 
 <head>
+ <section>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
 
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/drama.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Acting-Drama</h3>
+        <p>Almost no one will remember what he had just not interested.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="img/b.JPG" alt="Chicago" width="980" height="445">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="img/b.JPG" alt="New York" width="980" height="445">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="林詩敏的個人履歷、簡介、學經歷與專長">
@@ -94,6 +146,7 @@
         </div>
       </div>
     </section>
+   
  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" >
 <div class="row">
     <div class="col-lg-6 mb-4">
@@ -161,7 +214,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">微電影</h3>
-            <div class="subheading mb-3">In my uptopia</div>
+            <div class="subheading mb-3">In my uptopia-演員</div>
            
           </div>
           <div class="resume-date text-md-right">
@@ -182,24 +235,24 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+            <h3 class="mb-0">世新大學</h3>
+            <div class="subheading mb-3">學士學位</div>
+            <div>傳播學院-資訊傳播</div>
+            <p>就讀中</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
+            <span class="text-primary">2018SEP - </span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
+            <h3 class="mb-0">（香港）東華三院伍若瑜夫人紀念中學</h3>
+            <div class="subheading mb-3">選修課：中國歷史、旅遊與款待</div>
+            <p>已畢業</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
+            <span class="text-primary"> 2011SEP-2018AUG</span>
           </div>
         </div>
 
@@ -346,28 +399,36 @@ tr:nth-child(even) {
     <th>項目狀態</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Germany</td>
+    <td>去Paris旅行</td>
+    <td>未達成</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Mexico</td>
+    <td>25歲存款50萬</td>
+    <td>未達成</td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Austria</td>
+    <td>學日文</td>
+    <td>未達成</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>UK</td>
+    <td>跳傘</td>
+    <td>未達成</td>
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Canada</td>
+    <td>潛水</td>
+    <td>未達成</td>
   </tr>
   <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Italy</td>
+    <td>去美國迪士尼</td>
+    <td>未達成</td>
+  </tr>
+  <tr>
+  <td>去泰國</td>
+  <td>已達成</td>
+  </tr>
+  <tr>
+  <td>出國留學</td>
+  <td>已達成</td>
   </tr>
 </table>
 </section>
